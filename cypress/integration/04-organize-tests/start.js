@@ -1,9 +1,28 @@
 /// <reference types="cypress" />
 
-it('Test one', () => {
-  
+beforeEach( () => {
+  cy.visit('localhost:3000')
+})
+
+
+describe('Group 1', () => {
+
+  it('Test one', () => {
+
+  });
+
+  it('Test two', () => {
+
+  });
 });
-    
-it('Test two', () => {
-      
-});
+
+describe('Group 2', () => {
+
+  it('Test one', () => {
+
+  });
+
+  it('Test two', () => {
+
+  });
+})
